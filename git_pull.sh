@@ -44,7 +44,7 @@ git pull
 
 CONFLICTS=$(git ls-files -u | wc -l)
 if [ "$CONFLICTS" -gt 0 ] ; then
-   echo "There is conflict in pyrobot. Aborting"
+   echo "There is conflict in realsense. Aborting"
    return 1
 fi
 

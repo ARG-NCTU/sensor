@@ -9,5 +9,5 @@ Sensor repo including:
 
 ## clone repo
 ```
- $ git clone --recursive git@github.com:ARG-NCTU/sensor.
+ $ git clone --recursive git@github.com:ARG-NCTU/sensor
 ```

@@ -1,0 +1,6 @@
+[submodule "realsense"]
+	path = realsense
+	url = git@github.com:IntelRealSense/realsense-ros.git
+[submodule "apriltags"]
+	path = apriltags
+	url = git@github.com:RIVeR-Lab/apriltags_ros.git

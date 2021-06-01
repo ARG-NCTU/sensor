@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+    <node name="keyence_reader" pkg="keyence_barcode_reader" type="keyence_main.py"/>
+</launch>

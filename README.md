@@ -3,7 +3,7 @@
 This is a sensor repo, and you need to clone sensor repo to your project repo.
 
 Sensor repo including:
-- realsense
+- realsense for librealsense 2.36.0
 - apriltags
 - barcode scanner
 

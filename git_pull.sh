@@ -48,5 +48,35 @@ if [ "$CONFLICTS" -gt 0 ] ; then
    return 1
 fi
 
+BRANCH=main
+
+echo "-----------------------------------------------------------------------"
+echo "-------------------------pull Keyence-SR2000 --------------------------"
+echo "-----------------------------------------------------------------------"
+cd $current_path/Keyence-SR2000
+git checkout $BRANCH
+git pull
+
+CONFLICTS=$(git ls-files -u | wc -l)
+if [ "$CONFLICTS" -gt 0 ] ; then
+   echo "There is conflict in Keyence-SR2000. Aborting"
+   return 1
+fi
+
+BRANCH=melodic
+
+echo "-----------------------------------------------------------------------"
+echo "-------------------------pull vision_opencv ---------------------------"
+echo "-----------------------------------------------------------------------"
+cd $current_path/vision_opencv
+git checkout $BRANCH
+git pull
+
+CONFLICTS=$(git ls-files -u | wc -l)
+if [ "$CONFLICTS" -gt 0 ] ; then
+   echo "There is conflict in vision_opencv. Aborting"
+   return 1
+fi
+
 cd $current_path
 return 0

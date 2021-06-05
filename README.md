@@ -5,7 +5,7 @@ This is a sensor repo, and you need to clone sensor repo to your project repo.
 Sensor repo including:
 - realsense
 - apriltags
-- barcode scanner
+- Keyence-SR2000
 
 ## clone repo
 ```

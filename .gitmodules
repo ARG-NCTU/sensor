@@ -4,3 +4,9 @@
 [submodule "apriltags"]
 	path = apriltags
 	url = git@github.com:RIVeR-Lab/apriltags_ros.git
+[submodule "Keyence-SR2000"]
+	path = Keyence-SR2000
+	url = git@github.com:kuolunwang/Keyence-SR2000.git
+[submodule "vision_opencv"]
+	path = vision_opencv
+	url = git@github.com:ros-perception/vision_opencv.git

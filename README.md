@@ -6,6 +6,7 @@ Sensor repo including:
 - realsense for librealsense 2.36.0
 - apriltags
 - Keyence-SR2000
+- vision opencv for melodic
 
 ## clone repo
 ```
